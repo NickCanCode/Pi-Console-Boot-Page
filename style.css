@@ -1,0 +1,35 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #4a507d;
+  color: white;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.game {
+  display: block;
+  text-align: center;
+  margin: 10px;
+}
+.game img {
+  margin-top: 10%;
+  height: 300px;
+  width: 250px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.game img:hover {
+  height: 350px;
+  width: 300px;
+}
